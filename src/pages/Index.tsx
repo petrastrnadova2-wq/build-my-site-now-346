@@ -20,7 +20,7 @@ const Index = () => {
         <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in">
           <div className="max-w-4xl mx-auto space-y-8">
             <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
-              Petra Strnadová
+              Mgr. Petra Strnadová
             </h1>
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <h2 className="text-2xl md:text-4xl text-primary font-light">
@@ -322,7 +322,7 @@ const Index = () => {
       <footer className="py-12 px-4 bg-primary/5 border-t border-border">
         <div className="container mx-auto max-w-6xl text-center">
           <h3 className="text-2xl font-semibold text-foreground mb-2">
-            Petra Strnadová
+            Mgr. Petra Strnadová
           </h3>
           <p className="text-muted-foreground mb-4">
             Poradna - Kineziologie One Brain
