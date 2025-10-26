@@ -68,7 +68,7 @@ const Index = () => {
               </h2>
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Jmenuji se Petra Strnadová a provázím lidi na jejich cestě k sobě samým – skrze terapeutickou metodu Kineziologie One Brain.
+                Jmenuji se Petra Strnadová a provázím klienty na jejich cestě k sobě samým – skrze terapeutickou metodu Kineziologie One Brain.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 S pokorou a respektem vás doprovodím tam, kde je ukrytá vaše vnitřní pravda. Věřím, že právě v hloubce vlastní duše leží vše podstatné – klid, síla i odpovědi, které možná zatím jen tiše čekají, až je uslyšíte.
@@ -77,7 +77,7 @@ const Index = () => {
                 Také já jsem se vydala na cestu vědomého vnitřního poznávání. A nebyla jsem na ní sama – mými největšími průvodkyněmi se staly mé dvě dcery. Díky nim jsem zakusila, jak proměňující a hluboká může být práce na sobě. Naučila jsem se opouštět staré vzorce, které mi už nesloužily – a teprve tehdy jsem pocítila sílu přítomného okamžiku – a lásky, která prostě je. Bez podmínek. Bez očekávání.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Každý z nás v sobě nese jedinečný příběh. Někdy bolavý, jindy zahalený tichem – ale vždy plný možností proměny. Jsem tu, abych vám pomohla naslouchat tomu příběhu. S laskavostí, v bezpečí a bez posuzování.
+                Každý z nás v sobě nese jedinečný příběh. Někdy bolavý, jindy zahalený tichem – ale vždy plný možností proměny. Jsem tu, abych vám pomohla naslouchat tomuto příběhu s laskavostí, v bezpečí a bez posuzování.
               </p>
             </div>
           </div>
