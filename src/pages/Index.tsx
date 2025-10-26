@@ -24,7 +24,7 @@ const Index = () => {
             </h1>
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <h2 className="text-2xl md:text-4xl text-primary font-light">
-              Poradna - Kineziologie One Brain
+              terapeutická poradka - Kineziologie One Brain
             </h2>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Profesionální podpora pro vaši duševní a fyzickou rovnováhu prostřednictvím kineziologie
@@ -325,7 +325,7 @@ const Index = () => {
             Mgr. Petra Strnadová
           </h3>
           <p className="text-muted-foreground mb-4">
-            Poradna - Kineziologie One Brain
+            terapeutická poradka - Kineziologie One Brain
           </p>
           <p className="text-sm text-muted-foreground">
             © 2025 Všechna práva vyhrazena
