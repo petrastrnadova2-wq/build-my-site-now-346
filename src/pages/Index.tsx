@@ -136,34 +136,6 @@ const Index = () => {
             <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
               <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
               <p className="text-muted-foreground leading-relaxed">
-                dlouhodobém stresu, napětí a vnitřním neklidu
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                úzkostech, strachu, nejistotě či nízkém sebevědomí
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                pocitu „zaseknutí" v životě nebo v rozhodování
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                emočně náročných situacích (rozchody, ztráty, změny)
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
                 nefunkčních vztahových vzorcích (v rodině, partnerství, práci)
               </p>
             </div>
@@ -178,7 +150,35 @@ const Index = () => {
             <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
               <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
               <p className="text-muted-foreground leading-relaxed">
+                dlouhodobém stresu, napětí a vnitřním neklidu
+              </p>
+            </div>
+
+            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
+              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+              <p className="text-muted-foreground leading-relaxed">
                 zpracování traumatických nebo silně emočně nabitých zážitků
+              </p>
+            </div>
+
+            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
+              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+              <p className="text-muted-foreground leading-relaxed">
+                úzkostech, strachu, nejistotě či nízkém sebevědomí
+              </p>
+            </div>
+
+            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
+              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
+              <p className="text-muted-foreground leading-relaxed">
+                emočně náročných situacích (rozchody, ztráty, změny)
+              </p>
+            </div>
+
+            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
+              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
+              <p className="text-muted-foreground leading-relaxed">
+                pocitu „zaseknutí" v životě nebo v rozhodování
               </p>
             </div>
 
