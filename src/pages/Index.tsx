@@ -26,6 +26,9 @@ const Index = () => {
             <h2 className="text-2xl md:text-4xl text-primary font-light">
               Terapeutická poradna - Kineziologie One Brain
             </h2>
+            <p className="text-xl md:text-2xl text-foreground/90 max-w-2xl mx-auto leading-relaxed italic font-light">
+              „Cesta k uzdravení začíná porozuměním sobě samému."
+            </p>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
               Profesionální podpora pro vaši duševní a fyzickou rovnováhu prostřednictvím kineziologie
             </p>
