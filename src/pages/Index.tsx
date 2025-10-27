@@ -57,7 +57,7 @@ const Index = () => {
               <img 
                 src={petraProfile} 
                 alt="Petra Strnadová" 
-                className="rounded-2xl shadow-soft w-full h-auto"
+                className="rounded-2xl shadow-soft w-3/4 mx-auto h-auto"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
               <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
