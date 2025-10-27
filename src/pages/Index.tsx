@@ -192,7 +192,7 @@ const Index = () => {
             <div className="md:col-span-2 flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
               <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
               <p className="text-muted-foreground leading-relaxed">
-                u dětí - boltic
+                u dětí – potíže se školou, strachy, nočními můrami, separační úzkostí, problémy ve vztazích s rodiči nebo vrstevníky
               </p>
             </div>
           </div>
