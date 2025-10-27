@@ -1,9 +1,11 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Brain, Heart, Sparkles, Phone, Mail, MapPin } from "lucide-react";
+import { Brain, Heart, Sparkles, Phone, Mail, MapPin, Download } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
 import petraProfile from "@/assets/petra-profile.jpg";
+import { Flyer } from "@/components/Flyer";
+import { generatePDF } from "@/utils/pdfGenerator";
 
 const Index = () => {
   return (
@@ -41,8 +43,10 @@ const Index = () => {
                 size="lg" 
                 variant="outline"
                 className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all text-lg px-8"
+                onClick={generatePDF}
               >
-                Více informací
+                <Download className="mr-2 h-5 w-5" />
+                Stáhnout leták PDF
               </Button>
             </div>
           </div>
@@ -317,6 +321,11 @@ const Index = () => {
           </Card>
         </div>
       </section>
+
+      {/* Hidden Flyer for PDF Generation */}
+      <div className="hidden">
+        <Flyer />
+      </div>
 
       {/* Footer */}
       <footer className="py-12 px-4 bg-primary/5 border-t border-border">
