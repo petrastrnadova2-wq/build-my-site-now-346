@@ -31,24 +31,6 @@ const Index = () => {
             <p className="text-xl md:text-2xl text-foreground/90 max-w-2xl mx-auto leading-relaxed italic font-light">
               „Cesta k uzdravení začíná porozuměním sobě samému."
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
-              <Button 
-                size="lg" 
-                className="bg-gradient-primary hover:opacity-90 transition-all shadow-soft hover:shadow-glow text-lg px-8"
-              >
-                <Phone className="mr-2 h-5 w-5" />
-                Objednat konzultaci
-              </Button>
-              <Button 
-                size="lg" 
-                variant="outline"
-                className="border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all text-lg px-8"
-                onClick={generatePDF}
-              >
-                <Download className="mr-2 h-5 w-5" />
-                Stáhnout leták PDF
-              </Button>
-            </div>
           </div>
         </div>
       </section>
