@@ -217,7 +217,7 @@ const Index = () => {
                     <span className="text-muted-foreground">Délka: 90–120 minut</span>
                   </div>
                   <div className="text-center pt-4">
-                    <div className="text-5xl font-bold text-primary mb-2">1 600 Kč</div>
+                    <div className="text-5xl font-bold text-primary mb-2">1 500 Kč</div>
                   </div>
                 </div>
               </CardContent>
@@ -235,7 +235,7 @@ const Index = () => {
                     <span className="text-muted-foreground">Délka: 60–90 minut</span>
                   </div>
                   <div className="text-center pt-4">
-                    <div className="text-5xl font-bold text-accent mb-2">900 Kč</div>
+                    <div className="text-5xl font-bold text-accent mb-2">800 Kč</div>
                   </div>
                 </div>
               </CardContent>

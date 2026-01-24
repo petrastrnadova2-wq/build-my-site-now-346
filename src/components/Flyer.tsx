@@ -98,12 +98,12 @@ export const Flyer = () => {
         <div className="grid grid-cols-2 gap-4">
           <div className="border-2 border-primary/20 rounded-lg p-4 text-center">
             <p className="text-lg font-semibold text-gray-900 mb-2">Dospělí</p>
-            <p className="text-3xl font-bold text-primary">1 600 Kč</p>
+            <p className="text-3xl font-bold text-primary">1 500 Kč</p>
             <p className="text-sm text-gray-600 mt-2">90–120 minut</p>
           </div>
           <div className="border-2 border-primary/20 rounded-lg p-4 text-center">
             <p className="text-lg font-semibold text-gray-900 mb-2">Děti</p>
-            <p className="text-3xl font-bold text-primary">900 Kč</p>
+            <p className="text-3xl font-bold text-primary">800 Kč</p>
             <p className="text-sm text-gray-600 mt-2">60–90 minut</p>
           </div>
         </div>
