@@ -28,28 +28,14 @@ const Index = () => {
         </div>
       </section>
 
-      {/* About Me Section */}
+      {/* Intro Section */}
       <section className="py-24 px-4">
-        <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="relative animate-scale-in order-2 md:order-1">
-              <img 
-                src={childIllustration} 
-                alt="Ilustrace šťastného dítěte" 
-                className="rounded-2xl shadow-soft w-3/4 mx-auto h-auto"
-              />
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
-              <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
-            </div>
-            <div className="space-y-6 animate-fade-up order-1 md:order-2">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-                Úvod
-              </h2>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Podpora dětí, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu. Ve své práci využívám jemné a respektující metody, zejména kineziologii One Brain a osvědčené přístupy podle paní Emmerlingové, které pomáhají uvolnit vnitřní bloky a stres a tím tak dopomoci ke zmírnění či odstranění nežádoucích projevů a zlepšení psychické pohody u dětí.
-              </p>
-            </div>
+        <div className="container mx-auto max-w-4xl">
+          <div className="space-y-6 animate-fade-up">
+            <div className="h-1 w-20 bg-accent rounded-full" />
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Podpora dětí, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu. Ve své práci využívám jemné a respektující metody, zejména kineziologii One Brain a osvědčené přístupy podle paní Emmerlingové, které pomáhají uvolnit vnitřní bloky a stres a tím tak dopomoci ke zmírnění či odstranění nežádoucích projevů a zlepšení psychické pohody u dětí.
+            </p>
           </div>
         </div>
       </section>
