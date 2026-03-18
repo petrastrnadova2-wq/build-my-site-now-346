@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Sparkles, Phone, Mail, MapPin, Download } from "lucide-react";
-import heroImage from "@/assets/hero-therapy.jpg";
+import heroChild from "@/assets/hero-child.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
 import childIllustration from "@/assets/child-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
