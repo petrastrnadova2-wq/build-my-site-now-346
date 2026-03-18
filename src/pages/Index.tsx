@@ -46,20 +46,14 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-up">
               <h2 className="text-4xl md:text-5xl font-bold text-foreground">
-                Co je Kineziologie One Brain
+                Metody
               </h2>
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
+                Kineziologie One Brain
+              </h3>
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Kineziologie One Brain je jemná, ale účinná terapeutická metoda, která pomáhá uvolňovat emocionální bloky, stres a hluboce uložené vzorce, které si neseme z minulosti – často z dětství, vztahů nebo silných životních situací.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Tyto bloky se ukládají do naší nervové soustavy a mohou ovlivňovat naše chování, myšlení, emoce i tělesné zdraví – a to často nevědomě. Metoda One Brain umožňuje tyto vzorce rozpoznat, porozumět jim a postupně je zpracovat a uvolnit.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Pracuje se s tzv. svalovým testem, který jemně a bezpečně vede ke zdroji problému – nikoliv jen na vědomé úrovni, ale i v hlubších vrstvách podvědomí. Cílem není „opravovat" člověka, ale pomoci mu navázat znovu spojení sám se sebou, svou vnitřní silou a rovnováhou.
-              </p>
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Kineziologie One Brain je vhodná pro děti i dospělé. Podporuje vnitřní klid, osobní růst a sebepřijetí.
+                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
               </p>
             </div>
             <div className="relative animate-scale-in">
