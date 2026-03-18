@@ -28,9 +28,6 @@ const Index = () => {
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
-            <p className="text-xl md:text-2xl text-foreground/90 max-w-2xl mx-auto leading-relaxed italic font-light">
-              „Cesta k uzdravení začíná porozuměním sobě samému."
-            </p>
           </div>
         </div>
       </section>
