@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Sparkles, Phone, Mail, MapPin, Download } from "lucide-react";
-import heroImage from "@/assets/hero-therapy.jpg";
+import heroChild from "@/assets/hero-child.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
 import childIllustration from "@/assets/child-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
@@ -11,13 +11,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-soft">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background/95" />
-        </div>
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in">
           <div className="max-w-4xl mx-auto space-y-6">
@@ -27,6 +22,7 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl text-primary font-light">
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
+            <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
           </div>
         </div>
