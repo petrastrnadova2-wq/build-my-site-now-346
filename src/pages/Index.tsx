@@ -11,13 +11,8 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-soft">
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-        <div 
-          className="absolute inset-0 bg-cover bg-center"
-          style={{ backgroundImage: `url(${heroImage})` }}
-        >
-          <div className="absolute inset-0 bg-gradient-to-b from-background/95 via-background/90 to-background/95" />
-        </div>
+      <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-background">
+        <div className="absolute inset-0 bg-gradient-to-b from-background via-background/95 to-background" />
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in">
           <div className="max-w-4xl mx-auto space-y-6">
