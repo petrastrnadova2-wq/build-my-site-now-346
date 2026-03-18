@@ -3,7 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Sparkles, Phone, Mail, MapPin, Download } from "lucide-react";
 import heroImage from "@/assets/hero-therapy.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
-import petraProfile from "@/assets/petra-profile.jpg";
+import childIllustration from "@/assets/child-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
 import { generatePDF } from "@/utils/pdfGenerator";
 
@@ -38,8 +38,8 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative animate-scale-in order-2 md:order-1">
               <img 
-                src={petraProfile} 
-                alt="Petra Strnadová" 
+                src={childIllustration} 
+                alt="Ilustrace šťastného dítěte" 
                 className="rounded-2xl shadow-soft w-3/4 mx-auto h-auto"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
