@@ -22,6 +22,7 @@ const Index = () => {
             <h2 className="text-2xl md:text-3xl text-primary font-light">
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
+            <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
           </div>
         </div>
