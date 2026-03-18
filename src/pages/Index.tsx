@@ -20,14 +20,14 @@ const Index = () => {
         </div>
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in">
-          <div className="max-w-4xl mx-auto space-y-8">
-            <h1 className="text-5xl md:text-7xl font-bold text-foreground leading-tight">
-              Mgr. Petra Strnadová
+          <div className="max-w-4xl mx-auto space-y-6">
+            <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Lehko.
             </h1>
-            <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
-            <h2 className="text-2xl md:text-4xl text-primary font-light">
-              Terapeutická poradna - Kineziologie One Brain
+            <h2 className="text-2xl md:text-3xl text-primary font-light">
+              Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
+            <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-xl md:text-2xl text-foreground/90 max-w-2xl mx-auto leading-relaxed italic font-light">
               „Cesta k uzdravení začíná porozuměním sobě samému."
             </p>
