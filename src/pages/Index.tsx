@@ -3,6 +3,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Sparkles, Phone, Mail, MapPin, Download } from "lucide-react";
 import heroChild from "@/assets/hero-child.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
+import petraProfile from "@/assets/petra-profile.jpg";
 import childIllustration from "@/assets/child-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
 import { generatePDF } from "@/utils/pdfGenerator";
@@ -149,6 +150,31 @@ const Index = () => {
               O mně
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+          </div>
+
+          <div className="grid md:grid-cols-5 gap-10 items-start animate-fade-up">
+            <div className="md:col-span-2 flex justify-center">
+              <img
+                src={petraProfile}
+                alt="Mgr. Petra Strnadová"
+                className="rounded-2xl shadow-soft w-full max-w-xs h-auto object-cover"
+              />
+            </div>
+            <div className="md:col-span-3 space-y-5">
+              <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do dětského světa, jeho zákonitostí i výzev, kterým děti v dnešní době čelí.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Během let strávených prací s dětmi i v mém blízkém okolí jsem si začala uvědomovat, jak hluboce ovlivňuje schopnost učení a radostné dětství vnitřní napětí, které si v sobě dítě nese. Viděla jsem, že tam, kde slova a klasické rady nestačí, může pomoci jemná práce s emocemi a tělem. Právě tyto zkušenosti mě přivedly k terapeutické metodě Kineziologie One Brain® a přístupům paní Emmerlingové.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Ve své poradně LEHKO. propojuji pedagogické vzdělání s respektujícím přístupem, který se nedívá jen na výsledek ve škole, ale především na to, jak se dítě cítí uvnitř. Pomáhám dětem odložit stres a strachy, aby mohly znovu objevit svou vnitřní sílu a začít prožívat školní povinnosti i vztahy s lehkostí.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít v bezpečném prostředí, s laskavostí a bez posuzování.
+              </p>
+            </div>
           </div>
         </div>
       </section>
