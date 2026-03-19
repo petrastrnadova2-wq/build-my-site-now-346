@@ -156,44 +156,29 @@ const Index = () => {
 
       {/* Pricing Section */}
       <section className="py-24 px-4 bg-secondary/30">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-16 animate-fade-in">
+        <div className="container mx-auto max-w-2xl">
+          <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
-              Investice do pohody vašeho dítěte
+              Ceník služeb
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
           </div>
 
-          <div className="grid md:grid-cols-2 gap-8">
-            <Card className="border-none shadow-soft hover:shadow-glow transition-all bg-card">
-              <CardContent className="p-8 space-y-6">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-foreground mb-2">Základní sezení</h3>
-                  <div className="h-1 w-12 bg-primary rounded-full mx-auto mb-4" />
-                  <p className="text-muted-foreground">60 minut</p>
-                </div>
-                <div className="text-center pt-4">
-                  <div className="text-5xl font-bold text-primary mb-2">800 Kč</div>
-                </div>
-              </CardContent>
-            </Card>
-
-            <Card className="border-none shadow-soft hover:shadow-glow transition-all bg-card">
-              <CardContent className="p-8 space-y-6">
-                <div className="text-center">
-                  <h3 className="text-2xl font-bold text-foreground mb-2">Rozšířené sezení</h3>
-                  <div className="h-1 w-12 bg-accent rounded-full mx-auto mb-4" />
-                  <p className="text-muted-foreground">90 minut</p>
-                </div>
-                <div className="text-center pt-4">
-                  <div className="text-5xl font-bold text-accent mb-2">1 200 Kč</div>
-                </div>
-              </CardContent>
-            </Card>
-          </div>
+          <Card className="border-none shadow-soft bg-card">
+            <CardContent className="p-8 md:p-12 space-y-6">
+              <div className="flex items-center justify-between py-4 border-b border-border">
+                <span className="text-xl text-foreground font-medium">60 min</span>
+                <span className="text-2xl font-bold text-primary">800 Kč</span>
+              </div>
+              <div className="flex items-center justify-between py-4">
+                <span className="text-xl text-foreground font-medium">90 min</span>
+                <span className="text-2xl font-bold text-primary">1 200 Kč</span>
+              </div>
+            </CardContent>
+          </Card>
 
           <p className="text-center text-muted-foreground mt-8 text-lg">
-            Délka setkání je vždy individuální a odvíjí se od konkrétních potřeb vašeho dítěte.
+            Délka setkání se odvíjí od individuálních potřeb a rozpoložení dítěte.
           </p>
         </div>
       </section>
