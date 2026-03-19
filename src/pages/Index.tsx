@@ -45,7 +45,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-up">
-              <h2 className="text-4xl md:text-5xl font-bold text-foreground">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
                 Metody
               </h2>
               <h3 className="text-2xl md:text-3xl font-semibold text-primary">
@@ -54,6 +54,14 @@ const Index = () => {
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
+              </p>
+
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
+                Metody dle paní Emmerlingové a EFT
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
               </p>
             </div>
             <div className="relative animate-scale-in">
@@ -69,91 +77,82 @@ const Index = () => {
         </div>
       </section>
 
-      {/* How Can Kinesiology Help Section */}
+      {/* Child Support Section */}
       <section className="py-24 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-              S čím vám může Kineziologie pomoci
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              S čím mohu vašemu dítěti pomoci
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Kineziologie One Brain může být užitečná tam, kde cítíme, že něco uvnitř potřebuje změnu – ale rozum nestačí. Pomáhá například při:
+            <p className="text-xl text-primary font-semibold mb-2">Oblast podpory</p>
+            <p className="text-lg text-muted-foreground">
+              Konkrétní projevy, které spolu vyřešíme
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                nefunkčních vztahových vzorcích (v rodině, partnerství, práci)
-              </p>
-            </div>
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <Card className="border-none shadow-soft bg-card">
+              <CardContent className="p-8 space-y-4">
+                <h3 className="text-2xl font-bold text-foreground">Škola a učení</h3>
+                <div className="h-1 w-12 bg-primary rounded-full" />
+                <p className="text-muted-foreground leading-relaxed">
+                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost
+                </p>
+              </CardContent>
+            </Card>
 
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                psychosomatických potížích a tělesném napětí
-              </p>
-            </div>
+            <Card className="border-none shadow-soft bg-card">
+              <CardContent className="p-8 space-y-4">
+                <h3 className="text-2xl font-bold text-foreground">Emoční svět</h3>
+                <div className="h-1 w-12 bg-accent rounded-full" />
+                <p className="text-muted-foreground leading-relaxed">
+                  Nízké sebevědomí, tréma, úzkostné stavy, silné emoční projevy (vztek, agrese), noční můry, strachy, separační úzkost, kousání nehtů.
+                </p>
+              </CardContent>
+            </Card>
 
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                dlouhodobém stresu, napětí a vnitřním neklidu
-              </p>
-            </div>
+            <Card className="border-none shadow-soft bg-card">
+              <CardContent className="p-8 space-y-4">
+                <h3 className="text-2xl font-bold text-foreground">Chování a vztahy</h3>
+                <div className="h-1 w-12 bg-primary rounded-full" />
+                <p className="text-muted-foreground leading-relaxed">
+                  Potíže s adaptací v kolektivu, časté konflikty s vrstevníky či rodiči, agresivita.
+                </p>
+              </CardContent>
+            </Card>
 
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                zpracování traumatických nebo silně emočně nabitých zážitků
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                úzkostech, strachu, nejistotě či nízkém sebevědomí
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                emočně náročných situacích (rozchody, ztráty, změny)
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                pocitu „zaseknutí" v životě nebo v rozhodování
-              </p>
-            </div>
-
-            <div className="flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                návratu k vnitřní rovnováze, intuici a vlastnímu směru
-              </p>
-            </div>
-
-            <div className="md:col-span-2 flex gap-4 p-6 rounded-xl bg-card border border-border hover:shadow-soft transition-all">
-              <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-              <p className="text-muted-foreground leading-relaxed">
-                <strong>u dětí</strong> – potíže se školou, strachy, nočními můrami, separační úzkostí, problémy ve vztazích s rodiči nebo vrstevníky
-              </p>
-            </div>
+            <Card className="border-none shadow-soft bg-card">
+              <CardContent className="p-8 space-y-4">
+                <h3 className="text-2xl font-bold text-foreground">Tělo a stres</h3>
+                <div className="h-1 w-12 bg-accent rounded-full" />
+                <p className="text-muted-foreground leading-relaxed">
+                  Psychosomatické potíže jako například bolesti břicha, bolesti hlavy bez zjevné příčiny nebo pomočování.
+                </p>
+              </CardContent>
+            </Card>
           </div>
 
-          <div className="mt-12 text-center">
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto italic">
-              Terapie probíhá v bezpečném a respektujícím prostředí. Vždy v tempu, které je pro vás (nebo vaše dítě) přirozené a podpůrné.
+          <div className="mt-10 text-center">
+            <p className="text-sm text-muted-foreground italic max-w-2xl mx-auto">
+              Moje služby nenahrazují odbornou lékařskou či psychologickou péči. V případě vážných klinických diagnóz doporučuji konzultaci s příslušným lékařem.
             </p>
           </div>
         </div>
       </section>
+
+      {/* O mně Section */}
+      <section className="py-24 px-4 bg-secondary/30">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              O mně
+            </h2>
+            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+          </div>
+        </div>
+      </section>
+
 
       {/* Pricing Section */}
       <section className="py-24 px-4 bg-secondary/30">
