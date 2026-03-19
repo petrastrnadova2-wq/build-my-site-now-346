@@ -134,8 +134,8 @@ const Index = () => {
           </div>
 
           <div className="mt-10 text-center">
-            <p className="text-sm text-muted-foreground italic max-w-2xl mx-auto">
-              Moje služby nenahrazují odbornou lékařskou či psychologickou péči. V případě vážných klinických diagnóz doporučuji konzultaci s příslušným lékařem.
+            <p className="text-sm text-muted-foreground italic max-w-3xl mx-auto">
+              <strong className="not-italic">Informace o poskytovaných službách:</strong> Nabízené služby (Kineziologie One Brain, metody dle Mgr. Emmerlingové a EFT) jsou poradenské a vzdělávací techniky zaměřené na uvolnění stresu a osobní rozvoj dítěte. Tyto služby nejsou zdravotními službami ve smyslu zákona č. 372/2011 Sb. o zdravotních službách, ani nenahrazují péči lékaře, klinického psychologa či psychiatra. V případě podezření na závažné onemocnění či klinickou poruchu prosím vždy konzultujte stav dítěte s příslušným odborným lékařem.
             </p>
           </div>
         </div>
