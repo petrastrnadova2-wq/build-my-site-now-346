@@ -17,7 +17,7 @@ const Index = () => {
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in">
           <div className="max-w-4xl mx-auto space-y-6">
-            <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Caveat', cursive" }}>
               Lehko.
             </h1>
             <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide">
