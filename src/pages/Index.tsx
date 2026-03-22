@@ -62,8 +62,8 @@ const Index = () => {
             </div>
             <div className="relative animate-scale-in">
               <img 
-                src={balanceImage} 
-                alt="Balance and wellness" 
+                src={childIllustration} 
+                alt="Ilustrace šťastného dítěte" 
                 className="rounded-2xl shadow-soft w-full h-auto"
               />
               <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
