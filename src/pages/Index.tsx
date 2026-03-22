@@ -20,7 +20,7 @@ const Index = () => {
             <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Caveat', cursive" }}>
               Lehko.
             </h1>
-            <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+            <h2 className="text-2xl md:text-3xl text-primary font-bold tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-[200px] md:max-w-[280px] h-auto mt-4 rounded-2xl" />
