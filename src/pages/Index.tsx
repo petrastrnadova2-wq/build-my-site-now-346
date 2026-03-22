@@ -35,17 +35,6 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Intro Section */}
-      <section className="py-24 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="space-y-6 animate-fade-up">
-            <div className="h-1 w-20 bg-accent rounded-full" />
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Podpora dětí, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu. Ve své práci využívám jemné a respektující metody, zejména kineziologii One Brain a osvědčené přístupy podle paní Emmerlingové, které pomáhají uvolnit vnitřní bloky a stres a tím tak dopomoci ke zmírnění či odstranění nežádoucích projevů a zlepšení psychické pohody u dětí.
-            </p>
-          </div>
-        </div>
-      </section>
 
       {/* What is Kinesiology Section */}
       <section className="py-24 px-4 bg-secondary/30">
