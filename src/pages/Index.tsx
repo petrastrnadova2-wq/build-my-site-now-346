@@ -17,13 +17,13 @@ const Index = () => {
         
         <div className="relative z-10 container mx-auto px-4 py-20 text-center animate-fade-in">
           <div className="max-w-4xl mx-auto space-y-6">
-            <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Caveat', cursive" }}>
+            <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Dancing Script', cursive" }}>
               Lehko.
             </h1>
-            <h2 className="text-2xl md:text-3xl text-primary font-bold tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+            <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide">
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
-            <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-[200px] md:max-w-[280px] h-auto mt-4 rounded-2xl" />
+            <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain a osvědčených postupech paní Emmerlingové.
@@ -39,32 +39,35 @@ const Index = () => {
       {/* What is Kinesiology Section */}
       <section className="py-24 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
-          <div className="space-y-6 animate-fade-up max-w-3xl mx-auto">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Caveat', cursive" }}>
-              Metody
-            </h2>
-            <h3 className="text-2xl md:text-3xl font-semibold text-primary" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-              Kineziologie One Brain
-            </h3>
-            <div className="h-1 w-20 bg-accent rounded-full" />
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
-            </p>
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6 animate-fade-up">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                Metody
+              </h2>
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
+                Kineziologie One Brain
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
+              </p>
 
-            <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-              Metody dle paní Emmerlingové a EFT
-            </h3>
-            <div className="h-1 w-20 bg-accent rounded-full" />
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
-            </p>
-
-            <div className="relative animate-scale-in pt-8 flex justify-center">
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
+                Metody dle paní Emmerlingové a EFT
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
+              </p>
+            </div>
+            <div className="relative animate-scale-in">
               <img 
                 src={childIllustration} 
                 alt="Ilustrace šťastného dítěte" 
-                className="rounded-2xl shadow-soft max-w-md w-full h-auto"
+                className="rounded-2xl shadow-soft w-full h-auto"
               />
+              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
+              <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
             </div>
           </div>
         </div>
@@ -74,11 +77,11 @@ const Index = () => {
       <section className="py-24 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Caveat', cursive" }}>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
               S čím mohu vašemu dítěti pomoci
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
-            <p className="text-xl text-primary font-semibold mb-2" style={{ fontFamily: "'Montserrat', sans-serif" }}>Oblast podpory</p>
+            <p className="text-xl text-primary font-semibold mb-2">Oblast podpory</p>
             <p className="text-lg text-muted-foreground">
               Konkrétní projevy, které spolu vyřešíme
             </p>
@@ -138,7 +141,7 @@ const Index = () => {
       <section className="py-24 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Caveat', cursive" }}>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
               O mně
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
@@ -153,7 +156,7 @@ const Index = () => {
               />
             </div>
             <div className="md:col-span-3 space-y-5">
-              <h3 className="text-2xl font-semibold text-primary" style={{ fontFamily: "'Montserrat', sans-serif" }}>Mgr. Petra Strnadová</h3>
+              <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do dětského světa, jeho zákonitostí i výzev, kterým děti v dnešní době čelí.
               </p>
@@ -176,7 +179,7 @@ const Index = () => {
       <section className="py-24 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-2xl">
           <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Caveat', cursive" }}>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
               Ceník služeb
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
