@@ -20,17 +20,17 @@ const Index = () => {
             <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Dancing Script', cursive" }}>
               Lehko.
             </h1>
-            <h2 className="text-2xl md:text-3xl text-primary font-light" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide">
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
+            <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
+            <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain a osvědčených postupech paní Emmerlingové.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Tyto techniky míří přímo k jádru problému: pomáhají uvolňovat vnitřní bloky a odbourávat nahromaděný stres.
             </p>
-            <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
-            <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
           </div>
         </div>
       </section>
