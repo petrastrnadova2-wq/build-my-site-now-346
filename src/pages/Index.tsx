@@ -20,7 +20,7 @@ const Index = () => {
             <h1 className="text-7xl md:text-9xl font-bold text-foreground leading-tight" style={{ fontFamily: "'Caveat', cursive" }}>
               Lehko.
             </h1>
-            <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+            <h2 className="text-2xl md:text-3xl text-primary font-bold tracking-wide" style={{ fontFamily: "'Montserrat', sans-serif" }}>
               Prostor pro vnitřní klid dětí a radostné učení.
             </h2>
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-[200px] md:max-w-[280px] h-auto mt-4 rounded-2xl" />
@@ -39,35 +39,32 @@ const Index = () => {
       {/* What is Kinesiology Section */}
       <section className="py-24 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 animate-fade-up">
+          <div className="space-y-6 animate-fade-up max-w-3xl mx-auto">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Caveat', cursive" }}>
-                Metody
-              </h2>
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                Kineziologie One Brain
-              </h3>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
-              </p>
+              Metody
+            </h2>
+            <h3 className="text-2xl md:text-3xl font-semibold text-primary" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+              Kineziologie One Brain
+            </h3>
+            <div className="h-1 w-20 bg-accent rounded-full" />
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
+            </p>
 
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8" style={{ fontFamily: "'Montserrat', sans-serif" }}>
-                Metody dle paní Emmerlingové a EFT
-              </h3>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
-              </p>
-            </div>
-            <div className="relative animate-scale-in">
+            <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8" style={{ fontFamily: "'Montserrat', sans-serif" }}>
+              Metody dle paní Emmerlingové a EFT
+            </h3>
+            <div className="h-1 w-20 bg-accent rounded-full" />
+            <p className="text-lg text-muted-foreground leading-relaxed">
+              Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
+            </p>
+
+            <div className="relative animate-scale-in pt-8 flex justify-center">
               <img 
                 src={childIllustration} 
                 alt="Ilustrace šťastného dítěte" 
-                className="rounded-2xl shadow-soft w-full h-auto"
+                className="rounded-2xl shadow-soft max-w-md w-full h-auto"
               />
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
-              <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
             </div>
           </div>
         </div>
