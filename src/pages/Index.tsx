@@ -156,7 +156,7 @@ const Index = () => {
               />
             </div>
             <div className="md:col-span-3 space-y-5">
-              <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
+              <h3 className="text-2xl font-semibold text-primary" style={{ fontFamily: "'Montserrat', sans-serif" }}>Mgr. Petra Strnadová</h3>
               <p className="text-muted-foreground leading-relaxed">
                 Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do dětského světa, jeho zákonitostí i výzev, kterým děti v dnešní době čelí.
               </p>
