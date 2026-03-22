@@ -77,11 +77,11 @@ const Index = () => {
       <section className="py-24 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Caveat', cursive" }}>
               S čím mohu vašemu dítěti pomoci
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
-            <p className="text-xl text-primary font-semibold mb-2">Oblast podpory</p>
+            <p className="text-xl text-primary font-semibold mb-2" style={{ fontFamily: "'Montserrat', sans-serif" }}>Oblast podpory</p>
             <p className="text-lg text-muted-foreground">
               Konkrétní projevy, které spolu vyřešíme
             </p>
