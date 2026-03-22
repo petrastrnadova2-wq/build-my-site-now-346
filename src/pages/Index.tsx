@@ -52,7 +52,7 @@ const Index = () => {
                 Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
               </p>
 
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                 Metody dle paní Emmerlingové a EFT
               </h3>
               <div className="h-1 w-20 bg-accent rounded-full" />
