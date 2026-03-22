@@ -41,7 +41,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6 animate-fade-up">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Caveat', cursive" }}>
                 Metody
               </h2>
               <h3 className="text-2xl md:text-3xl font-semibold text-primary">
