@@ -44,7 +44,7 @@ const Index = () => {
             <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Caveat', cursive" }}>
                 Metody
               </h2>
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary" style={{ fontFamily: "'Montserrat', sans-serif" }}>
                 Kineziologie One Brain
               </h3>
               <div className="h-1 w-20 bg-accent rounded-full" />
