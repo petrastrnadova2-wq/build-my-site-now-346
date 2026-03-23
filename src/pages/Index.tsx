@@ -102,7 +102,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Emoční svět</h3>
                 <div className="h-1 w-12 bg-accent rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Nízké sebevědomí, tréma, úzkostné stavy, silné emoční projevy (vztek, agrese), noční můry, strachy, separační úzkost, kousání nehtů.
+                  Nízké sebevědomí, tréma, úzkostné stavy, silné emoční projevy (vztek, agrese), noční můry, strachy, separační úzkost, kousání nehtů, závislosti.
                 </p>
               </CardContent>
             </Card>
