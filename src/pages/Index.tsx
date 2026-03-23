@@ -122,7 +122,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Tělo a stres</h3>
                 <div className="h-1 w-12 bg-accent rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Psychosomatické potíže jako například bolesti břicha, bolesti hlavy bez zjevné příčiny nebo pomočování.
+                  Psychosomatické potíže jako například bolesti břicha, bolesti hlavy bez zjevné příčiny nebo problémy s vyprazdňováním (pomočování, zácpa).
                 </p>
               </CardContent>
             </Card>
