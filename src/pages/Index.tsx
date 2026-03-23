@@ -59,14 +59,14 @@ const Index = () => {
                 Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
               </p>
 
-              <div className="relative animate-scale-in mt-10 max-w-2xl mx-auto">
+              <div className="relative mt-10 max-w-sm mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 via-transparent to-secondary/30 rounded-full blur-2xl scale-110" />
                 <img 
                   src={childIllustration} 
                   alt="Ilustrace šťastného dítěte" 
-                  className="rounded-2xl shadow-soft w-full h-auto"
+                  className="relative w-full h-auto"
+                  style={{ mixBlendMode: 'multiply' }}
                 />
-                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
-                <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
               </div>
           </div>
         </div>
@@ -199,6 +199,9 @@ const Index = () => {
 
           <p className="text-center text-muted-foreground mt-8 text-lg">
             Délka setkání se odvíjí od individuálních potřeb a rozpoložení dítěte.
+          </p>
+          <p className="text-center text-muted-foreground mt-4 text-base">
+            Cena je závislá na délce sezení. Základem je sazba 800 Kč / hodinu, přičemž výsledná částka se odvíjí podílově od přesné doby strávené na sezení.
           </p>
         </div>
       </section>
