@@ -26,7 +26,7 @@ const Index = () => {
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain a osvědčených postupech paní Emmerlingové.
+              Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain® a osvědčených postupech paní Emmerlingové.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Tyto techniky míří přímo k jádru problému: pomáhají uvolňovat vnitřní bloky a odbourávat nahromaděný stres.
