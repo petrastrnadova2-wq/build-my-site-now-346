@@ -278,7 +278,7 @@ const Index = () => {
             Mgr. Petra Strnadová
           </h3>
           <p className="text-muted-foreground mb-4">
-            Terapeutická poradna - Kineziologie One Brain
+            Terapeutická poradna - Kineziologie One Brain®
           </p>
           <p className="text-sm text-muted-foreground">
             © 2025 Všechna práva vyhrazena
