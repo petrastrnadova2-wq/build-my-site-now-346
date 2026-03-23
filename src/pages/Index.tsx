@@ -200,6 +200,9 @@ const Index = () => {
           <p className="text-center text-muted-foreground mt-8 text-lg">
             Délka setkání se odvíjí od individuálních potřeb a rozpoložení dítěte.
           </p>
+          <p className="text-center text-muted-foreground mt-4 text-base">
+            Cena je závislá na délce sezení. Základem je sazba 800 Kč / hodinu, přičemž výsledná částka se odvíjí podílově od přesné doby strávené na sezení.
+          </p>
         </div>
       </section>
 
