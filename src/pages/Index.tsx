@@ -207,7 +207,7 @@ const Index = () => {
       <section className="py-24 px-4 bg-gradient-to-b from-background to-secondary/30">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-16 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
               Kontaktujte mě
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
