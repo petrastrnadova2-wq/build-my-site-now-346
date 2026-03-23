@@ -137,7 +137,7 @@ const Index = () => {
       </section>
 
       {/* O mně Section */}
-      <section className="py-24 px-4 bg-secondary/30">
+      <section className="py-12 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
