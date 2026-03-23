@@ -26,7 +26,7 @@ const Index = () => {
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain a osvědčených postupech paní Emmerlingové.
+              Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain® a osvědčených postupech paní Emmerlingové.
             </p>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
               Tyto techniky míří přímo k jádru problému: pomáhají uvolňovat vnitřní bloky a odbourávat nahromaděný stres.
@@ -37,14 +37,14 @@ const Index = () => {
 
 
       {/* What is Kinesiology Section */}
-      <section className="py-24 px-4 bg-secondary/30">
+      <section className="py-12 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
           <div className="space-y-6 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
                 Metody
               </h2>
               <h3 className="text-2xl md:text-3xl font-semibold text-primary">
-                Kineziologie One Brain
+                Kineziologie One Brain®
               </h3>
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
@@ -73,7 +73,7 @@ const Index = () => {
       </section>
 
       {/* Child Support Section */}
-      <section className="py-24 px-4">
+      <section className="py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
@@ -92,7 +92,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Škola a učení</h3>
                 <div className="h-1 w-12 bg-primary rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost
+                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost, problémy s chováním.
                 </p>
               </CardContent>
             </Card>
@@ -102,7 +102,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Emoční svět</h3>
                 <div className="h-1 w-12 bg-accent rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Nízké sebevědomí, tréma, úzkostné stavy, silné emoční projevy (vztek, agrese), noční můry, strachy, separační úzkost, kousání nehtů.
+                  Nízké sebevědomí, tréma, úzkostné stavy, silné emoční projevy (vztek, agrese), noční můry, strachy, separační úzkost, kousání nehtů, závislosti.
                 </p>
               </CardContent>
             </Card>
@@ -122,7 +122,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Tělo a stres</h3>
                 <div className="h-1 w-12 bg-accent rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Psychosomatické potíže jako například bolesti břicha, bolesti hlavy bez zjevné příčiny nebo pomočování.
+                  Psychosomatické potíže jako například bolesti břicha, bolesti hlavy bez zjevné příčiny nebo problémy s vyprazdňováním (pomočování, zácpa).
                 </p>
               </CardContent>
             </Card>
@@ -130,14 +130,14 @@ const Index = () => {
 
           <div className="mt-10 text-center">
             <p className="text-sm text-muted-foreground italic max-w-3xl mx-auto">
-              <strong className="not-italic">Informace o poskytovaných službách:</strong> Nabízené služby (Kineziologie One Brain, metody dle Mgr. Emmerlingové a EFT) jsou poradenské a vzdělávací techniky zaměřené na uvolnění stresu a osobní rozvoj dítěte. Tyto služby nejsou zdravotními službami ve smyslu zákona č. 372/2011 Sb. o zdravotních službách, ani nenahrazují péči lékaře, klinického psychologa či psychiatra. V případě podezření na závažné onemocnění či klinickou poruchu prosím vždy konzultujte stav dítěte s příslušným odborným lékařem.
+              <strong className="not-italic">Informace o poskytovaných službách:</strong> Nabízené služby (Kineziologie One Brain®, metody dle Mgr. Emmerlingové a EFT) jsou poradenské a vzdělávací techniky zaměřené na uvolnění stresu a osobní rozvoj dítěte. Tyto služby nejsou zdravotními službami ve smyslu zákona č. 372/2011 Sb. o zdravotních službách, ani nenahrazují péči lékaře, klinického psychologa či psychiatra. V případě podezření na závažné onemocnění či klinickou poruchu prosím vždy konzultujte stav dítěte s příslušným odborným lékařem.
             </p>
           </div>
         </div>
       </section>
 
       {/* O mně Section */}
-      <section className="py-24 px-4 bg-secondary/30">
+      <section className="py-12 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
@@ -278,7 +278,7 @@ const Index = () => {
             Mgr. Petra Strnadová
           </h3>
           <p className="text-muted-foreground mb-4">
-            Terapeutická poradna - Kineziologie One Brain
+            Terapeutická poradna - Kineziologie One Brain®
           </p>
           <p className="text-sm text-muted-foreground">
             © 2025 Všechna práva vyhrazena
