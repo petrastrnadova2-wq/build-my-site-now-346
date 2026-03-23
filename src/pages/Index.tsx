@@ -37,7 +37,7 @@ const Index = () => {
 
 
       {/* What is Kinesiology Section */}
-      <section className="py-24 px-4 bg-secondary/30">
+      <section className="py-12 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
           <div className="space-y-6 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
