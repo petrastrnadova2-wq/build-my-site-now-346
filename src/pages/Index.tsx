@@ -39,8 +39,7 @@ const Index = () => {
       {/* What is Kinesiology Section */}
       <section className="py-24 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="space-y-6 animate-fade-up">
+          <div className="space-y-6 animate-fade-up">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
                 Metody
               </h2>
@@ -59,16 +58,16 @@ const Index = () => {
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
               </p>
-            </div>
-            <div className="relative animate-scale-in">
-              <img 
-                src={childIllustration} 
-                alt="Ilustrace šťastného dítěte" 
-                className="rounded-2xl shadow-soft w-full h-auto"
-              />
-              <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
-              <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
-            </div>
+
+              <div className="relative animate-scale-in mt-10 max-w-2xl mx-auto">
+                <img 
+                  src={childIllustration} 
+                  alt="Ilustrace šťastného dítěte" 
+                  className="rounded-2xl shadow-soft w-full h-auto"
+                />
+                <div className="absolute -bottom-6 -right-6 w-32 h-32 bg-accent/20 rounded-full blur-3xl" />
+                <div className="absolute -top-6 -left-6 w-40 h-40 bg-primary/20 rounded-full blur-3xl" />
+              </div>
           </div>
         </div>
       </section>
