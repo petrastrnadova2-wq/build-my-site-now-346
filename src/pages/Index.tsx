@@ -92,7 +92,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Škola a učení</h3>
                 <div className="h-1 w-12 bg-primary rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost
+                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost, problémy s chováním.
                 </p>
               </CardContent>
             </Card>
