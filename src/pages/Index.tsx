@@ -44,7 +44,7 @@ const Index = () => {
                 Metody
               </h2>
               <h3 className="text-2xl md:text-3xl font-semibold text-primary">
-                Kineziologie One Brain
+                Kineziologie One Brain®
               </h3>
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
