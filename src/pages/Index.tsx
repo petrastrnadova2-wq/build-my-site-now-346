@@ -180,6 +180,9 @@ const Index = () => {
               Ceník služeb
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Pro objednání mě prosím kontaktujte telefonicky, nebo využijte můj rezervační systém. Pro potvrzení termínu je zapotřebí uhradit rezervační poplatek ve výši 200 Kč. Ten je plně vratný v případě zrušení konzultace nejpozději 24 hodin předem.
+            </p>
           </div>
 
           <Card className="border-none shadow-soft bg-card">
@@ -201,10 +204,6 @@ const Index = () => {
 
           <p className="text-center text-muted-foreground mt-4 text-base">
             Cena je závislá na délce sezení. Základem je sazba 800 Kč / hodinu, přičemž výsledná částka se odvíjí podílově od přesné doby strávené na sezení.
-          </p>
-
-          <p className="text-center text-muted-foreground mt-4 text-base">
-            Pro objednání mě prosím kontaktujte telefonicky, nebo využijte můj rezervační systém. Pro potvrzení termínu je zapotřebí uhradit rezervační poplatek ve výši 200 Kč. Ten je plně vratný v případě zrušení konzultace nejpozději 24 hodin předem.
           </p>
         </div>
       </section>
