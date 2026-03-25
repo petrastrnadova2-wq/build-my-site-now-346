@@ -213,9 +213,6 @@ const Index = () => {
               Kontaktujte mě
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
-            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Ráda odpovím na vaše dotazy a pomohu vám najít cestu k vaší vnitřní rovnováze
-            </p>
           </div>
 
           <Card className="border-none shadow-soft bg-card">
