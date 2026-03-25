@@ -202,6 +202,10 @@ const Index = () => {
           <p className="text-center text-muted-foreground mt-4 text-base">
             Cena je závislá na délce sezení. Základem je sazba 800 Kč / hodinu, přičemž výsledná částka se odvíjí podílově od přesné doby strávené na sezení.
           </p>
+
+          <p className="text-center text-muted-foreground mt-4 text-base">
+            Pro objednání mě prosím kontaktujte telefonicky, nebo využijte můj rezervační systém. Pro potvrzení termínu je zapotřebí uhradit rezervační poplatek ve výši 200 Kč. Ten je plně vratný v případě zrušení konzultace nejpozději 24 hodin předem.
+          </p>
         </div>
       </section>
 
