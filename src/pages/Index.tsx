@@ -35,43 +35,6 @@ const Index = () => {
         </div>
       </section>
 
-
-      {/* What is Kinesiology Section */}
-      <section className="py-12 px-4 bg-secondary/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="space-y-6 animate-fade-up">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
-                Metody
-              </h2>
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
-                Kineziologie One Brain®
-              </h3>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
-              </p>
-
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
-                Metody dle paní Emmerlingové a EFT
-              </h3>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
-              </p>
-
-              <div className="relative mt-10 max-w-sm mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 via-transparent to-secondary/30 rounded-full blur-2xl scale-110" />
-                <img 
-                  src={childIllustration} 
-                  alt="Ilustrace šťastného dítěte" 
-                  className="relative w-full h-auto"
-                  style={{ mixBlendMode: 'multiply' }}
-                />
-              </div>
-          </div>
-        </div>
-      </section>
-
       {/* Child Support Section */}
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-6xl">
@@ -136,8 +99,44 @@ const Index = () => {
         </div>
       </section>
 
-      {/* O mně Section */}
+      {/* Metody Section */}
       <section className="py-12 px-4 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="space-y-6 animate-fade-up">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                Metody
+              </h2>
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
+                Kineziologie One Brain®
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
+              </p>
+
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
+                Metody dle paní Emmerlingové a EFT
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
+              </p>
+
+              <div className="relative mt-10 max-w-sm mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 via-transparent to-secondary/30 rounded-full blur-2xl scale-110" />
+                <img 
+                  src={childIllustration} 
+                  alt="Ilustrace šťastného dítěte" 
+                  className="relative w-full h-auto"
+                  style={{ mixBlendMode: 'multiply' }}
+                />
+              </div>
+          </div>
+        </div>
+      </section>
+
+      {/* O mně Section */}
+      <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
@@ -173,7 +172,6 @@ const Index = () => {
         </div>
       </section>
 
-
       {/* Pricing Section */}
       <section className="py-24 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-2xl">
@@ -190,16 +188,17 @@ const Index = () => {
                 <span className="text-xl text-foreground font-medium">60 min</span>
                 <span className="text-2xl font-bold text-primary">800 Kč</span>
               </div>
-              <div className="flex items-center justify-between py-4">
+              <div className="flex items-center justify-between py-4 border-b border-border">
                 <span className="text-xl text-foreground font-medium">90 min</span>
                 <span className="text-2xl font-bold text-primary">1 200 Kč</span>
+              </div>
+              <div className="flex items-center justify-between py-4">
+                <span className="text-xl text-foreground font-medium">120 min</span>
+                <span className="text-2xl font-bold text-primary">1 600 Kč</span>
               </div>
             </CardContent>
           </Card>
 
-          <p className="text-center text-muted-foreground mt-8 text-lg">
-            Délka setkání se odvíjí od individuálních potřeb a rozpoložení dítěte.
-          </p>
           <p className="text-center text-muted-foreground mt-4 text-base">
             Cena je závislá na délce sezení. Základem je sazba 800 Kč / hodinu, přičemž výsledná částka se odvíjí podílově od přesné doby strávené na sezení.
           </p>
@@ -278,7 +277,7 @@ const Index = () => {
             Mgr. Petra Strnadová
           </h3>
           <p className="text-muted-foreground mb-4">
-            Terapeutická poradna - Kineziologie One Brain®
+            Poradna LEHKO.
           </p>
           <p className="text-sm text-muted-foreground">
             © 2025 Všechna práva vyhrazena
