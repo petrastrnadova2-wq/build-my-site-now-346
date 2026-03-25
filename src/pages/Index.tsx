@@ -40,7 +40,7 @@ const Index = () => {
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
-              S čím mohu vašemu dítěti pomoci
+              S čím vám mohu pomoci
             </h2>
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
             <p className="text-xl text-primary font-semibold mb-2">Oblast podpory</p>
@@ -55,7 +55,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Škola a učení</h3>
                 <div className="h-1 w-12 bg-primary rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost, problémy s chováním.
+                  Dyslexie, dysgrafie, pomalé čtení či nesoustředěnost, problémy s chováním, selhávání při zkouškách (i když učivo doma umíme)...
                 </p>
               </CardContent>
             </Card>
@@ -65,7 +65,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Emoční svět</h3>
                 <div className="h-1 w-12 bg-accent rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Nízké sebevědomí, tréma, úzkostné stavy, silné emoční projevy (vztek, agrese), noční můry, strachy, separační úzkost, kousání nehtů, závislosti.
+                  Nízké sebevědomí, tréma, úzkostné stavy, pocity viny, silné emoční projevy (vztek, agrese), traumatické stavy, noční můry, strachy, separační úzkost, kousání nehtů, závislosti, fobie...
                 </p>
               </CardContent>
             </Card>
@@ -75,7 +75,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Chování a vztahy</h3>
                 <div className="h-1 w-12 bg-primary rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Potíže s adaptací v kolektivu, časté konflikty s vrstevníky či rodiči, agresivita.
+                  Potíže s adaptací v kolektivu, problémy v komunikaci a ve vztazích, časté konflikty s vrstevníky či rodiči, agresivita...
                 </p>
               </CardContent>
             </Card>
@@ -85,7 +85,7 @@ const Index = () => {
                 <h3 className="text-2xl font-bold text-foreground">Tělo a stres</h3>
                 <div className="h-1 w-12 bg-accent rounded-full" />
                 <p className="text-muted-foreground leading-relaxed">
-                  Psychosomatické potíže jako například bolesti břicha, bolesti hlavy bez zjevné příčiny nebo problémy s vyprazdňováním (pomočování, zácpa).
+                  Psychomotorický neklid, zmírnění psychosomatických potíží jako například bolesti břicha, bolesti hlavy bez zjevné příčiny, chronické zdravotní problémy, nebo problémy s vyprazdňováním (pomočování, zácpa).
                 </p>
               </CardContent>
             </Card>
