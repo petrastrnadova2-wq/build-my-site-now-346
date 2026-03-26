@@ -26,10 +26,7 @@ const Index = () => {
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain® a osvědčených postupech paní Emmerlingové.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Tyto techniky míří přímo k jádru problému: pomáhají uvolňovat vnitřní bloky a odbourávat nahromaděný stres.
+              Děti, které procházejí náročným obdobím v emocích, ve škole nebo v kolektivu, potřebují především citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na respektujících metodách, které jdou přímo k jádru problému. Pomáhám dětem uvolnit vnitřní bloky a efektivně odbourat nahromaděný stres.
             </p>
           </div>
         </div>
@@ -45,7 +42,7 @@ const Index = () => {
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
             <p className="text-xl text-primary font-semibold mb-2">Oblast podpory</p>
             <p className="text-lg text-muted-foreground">
-              Konkrétní projevy, které spolu vyřešíme
+              Oblasti, ve kterých mohu vaše dítě provázet
             </p>
           </div>
 
@@ -90,48 +87,6 @@ const Index = () => {
               </CardContent>
             </Card>
           </div>
-
-          <div className="mt-10 text-center">
-            <p className="text-sm text-muted-foreground italic max-w-3xl mx-auto">
-              <strong className="not-italic">Informace o poskytovaných službách:</strong> Nabízené služby (Kineziologie One Brain®, metody dle Mgr. Emmerlingové a EFT) jsou poradenské a vzdělávací techniky zaměřené na uvolnění stresu a osobní rozvoj dítěte. Tyto služby nejsou zdravotními službami ve smyslu zákona č. 372/2011 Sb. o zdravotních službách, ani nenahrazují péči lékaře, klinického psychologa či psychiatra. V případě podezření na závažné onemocnění či klinickou poruchu prosím vždy konzultujte stav dítěte s příslušným odborným lékařem.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      {/* Metody Section */}
-      <section className="py-12 px-4 bg-secondary/30">
-        <div className="container mx-auto max-w-6xl">
-          <div className="space-y-6 animate-fade-up">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
-                Metody
-              </h2>
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
-                Kineziologie One Brain®
-              </h3>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
-              </p>
-
-              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
-                Metody dle paní Emmerlingové a EFT
-              </h3>
-              <div className="h-1 w-20 bg-accent rounded-full" />
-              <p className="text-lg text-muted-foreground leading-relaxed">
-                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
-              </p>
-
-              <div className="relative mt-10 max-w-sm mx-auto">
-                <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 via-transparent to-secondary/30 rounded-full blur-2xl scale-110" />
-                <img 
-                  src={childIllustration} 
-                  alt="Ilustrace šťastného dítěte" 
-                  className="relative w-full h-auto"
-                  style={{ mixBlendMode: 'multiply' }}
-                />
-              </div>
-          </div>
         </div>
       </section>
 
@@ -168,6 +123,43 @@ const Index = () => {
                 Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít v bezpečném prostředí, s laskavostí a bez posuzování.
               </p>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Metody Section */}
+      <section className="py-12 px-4 bg-secondary/30">
+        <div className="container mx-auto max-w-6xl">
+          <div className="space-y-6 animate-fade-up">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                Metody
+              </h2>
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary">
+                Kineziologie One Brain®
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Jde o jemnou metodu, jak pomoci dětem odložit „neviditelný batůžek" plný stresu a obav. Někdy se v dětském světě nahromadí napětí ze školy nebo nepříjemných zážitků, které se pak projeví jako neklid, strach nebo potíže s učením. Metoda One Brain® nám pomáhá citlivě najít místo, kde se toto napětí v tělíčku schovalo, a bezpečně ho uvolnit. Dítě tak může znovu najít svou přirozenou radost, lépe se soustředit a cítit se ve svém světě v bezpečí.
+              </p>
+
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
+                Metody dle paní Emmerlingové a EFT
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
+              
+              </p>
+
+              <div className="relative mt-10 max-w-sm mx-auto">
+                <div className="absolute inset-0 bg-gradient-to-t from-secondary/30 via-transparent to-secondary/30 rounded-full blur-2xl scale-110" />
+                <img 
+                  src={childIllustration} 
+                  alt="Ilustrace šťastného dítěte" 
+                  className="relative w-full h-auto"
+                  style={{ mixBlendMode: 'multiply' }}
+                />
+              </div>
           </div>
         </div>
       </section>
@@ -262,6 +254,12 @@ const Index = () => {
               </div>
             </CardContent>
           </Card>
+
+          <div className="mt-10 text-center">
+            <p className="text-sm text-muted-foreground italic max-w-3xl mx-auto">
+              <strong className="not-italic">Informace o poskytovaných službách:</strong> Nabízené služby (Kineziologie One Brain®, metody dle Mgr. Emmerlingové a EFT) jsou poradenské a vzdělávací techniky zaměřené na uvolnění stresu a osobní rozvoj dítěte. Tyto služby nejsou zdravotními službami ve smyslu zákona č. 372/2011 Sb. o zdravotních službách, ani nenahrazují péči lékaře, klinického psychologa či psychiatra. V případě podezření na závažné onemocnění či klinickou poruchu prosím vždy konzultujte stav dítěte s příslušným odborným lékařem.
+            </p>
+          </div>
         </div>
       </section>
 
