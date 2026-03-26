@@ -26,10 +26,7 @@ const Index = () => {
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Děti, které se potýkají s obtížemi v emocích, ve škole nebo v kolektivu, potřebují citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na jemných a respektujících metodách – zejména kineziologii One Brain® a osvědčených postupech paní Emmerlingové.
-            </p>
-            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Tyto techniky míří přímo k jádru problému: pomáhají uvolňovat vnitřní bloky a odbourávat nahromaděný stres.
+              Děti, které procházejí náročným obdobím v emocích, ve škole nebo v kolektivu, potřebují především citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na respektujících metodách, které jdou přímo k jádru problému. Pomáhám dětem uvolnit vnitřní bloky a efektivně odbourat nahromaděný stres.
             </p>
           </div>
         </div>
@@ -45,7 +42,7 @@ const Index = () => {
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
             <p className="text-xl text-primary font-semibold mb-2">Oblast podpory</p>
             <p className="text-lg text-muted-foreground">
-              Konkrétní projevy, které spolu vyřešíme
+              Oblasti, ve kterých mohu vaše dítě provázet
             </p>
           </div>
 
@@ -120,6 +117,7 @@ const Index = () => {
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
+              
               </p>
 
               <div className="relative mt-10 max-w-sm mx-auto">
