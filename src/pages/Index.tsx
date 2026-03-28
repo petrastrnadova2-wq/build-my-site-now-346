@@ -253,7 +253,7 @@ const Index = () => {
                   </div>
                 </div>
 
-                <div className="md:col-span-2 flex justify-center">
+                <div className="md:col-span-2 flex items-end justify-center">
                   <img 
                     src={contactIllustration} 
                     alt="Ilustrace dítěte" 
