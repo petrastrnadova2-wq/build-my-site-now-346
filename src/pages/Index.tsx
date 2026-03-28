@@ -4,7 +4,7 @@ import { Brain, Heart, Sparkles, Phone, Mail, MapPin, Download } from "lucide-re
 import heroChild from "@/assets/hero-child.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
 import petraProfile from "@/assets/petra-profile.jpg";
-import childIllustration from "@/assets/child-illustration.png";
+import childIllustration from "@/assets/child-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
 import { generatePDF } from "@/utils/pdfGenerator";
 
