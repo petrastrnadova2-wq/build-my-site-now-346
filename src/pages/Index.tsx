@@ -5,7 +5,6 @@ import heroChild from "@/assets/hero-child.jpg";
 import balanceImage from "@/assets/balance-wellness.jpg";
 import petraProfile from "@/assets/petra-profile.jpg";
 import childIllustration from "@/assets/child-illustration.jpg";
-import boyBubble from "@/assets/boy-bubble.jpg";
 import { Flyer } from "@/components/Flyer";
 import { generatePDF } from "@/utils/pdfGenerator";
 
@@ -220,46 +219,35 @@ const Index = () => {
 
           <Card className="border-none shadow-soft bg-card">
             <CardContent className="p-8 md:p-12">
-              <div className="grid md:grid-cols-3 gap-8 items-center">
-                <div className="md:col-span-2 space-y-8">
-                  <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary/50 transition-colors">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <Phone className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">Telefon</h3>
-                      <p className="text-muted-foreground">+420 792 767 332</p>
-                    </div>
+              <div className="space-y-8">
+                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary/50 transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <Phone className="h-6 w-6 text-primary" />
                   </div>
-
-                  <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary/50 transition-colors">
-                    <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
-                      <Mail className="h-6 w-6 text-accent-foreground" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">Email</h3>
-                      <p className="text-muted-foreground">poradna@petrastrnad.cz</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary/50 transition-colors">
-                    <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
-                      <MapPin className="h-6 w-6 text-primary" />
-                    </div>
-                    <div>
-                      <h3 className="font-semibold text-foreground mb-2">Adresa</h3>
-                      <p className="text-muted-foreground">Na Žižkově 1080<br />Liberec, Česká republika</p>
-                    </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Telefon</h3>
+                    <p className="text-muted-foreground">+420 792 767 332</p>
                   </div>
                 </div>
 
-                <div className="hidden md:flex justify-center">
-                  <img 
-                    src={boyBubble} 
-                    alt="Ilustrace šťastného chlapce" 
-                    className="max-w-[200px] h-auto opacity-90"
-                    style={{ mixBlendMode: 'multiply' }}
-                  />
+                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary/50 transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center flex-shrink-0">
+                    <Mail className="h-6 w-6 text-accent-foreground" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Email</h3>
+                    <p className="text-muted-foreground">poradna@petrastrnad.cz</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-4 p-4 rounded-lg hover:bg-secondary/50 transition-colors">
+                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center flex-shrink-0">
+                    <MapPin className="h-6 w-6 text-primary" />
+                  </div>
+                  <div>
+                    <h3 className="font-semibold text-foreground mb-2">Adresa</h3>
+                    <p className="text-muted-foreground">Na Žižkově 1080<br />Liberec, Česká republika</p>
+                  </div>
                 </div>
               </div>
 
