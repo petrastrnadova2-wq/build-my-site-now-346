@@ -148,7 +148,14 @@ const Index = () => {
               <div className="h-1 w-20 bg-accent rounded-full" />
               <p className="text-lg text-muted-foreground leading-relaxed">
                 Tento moderní přístup umožňuje jemně uvolňovat hluboko uložený stres a raná traumata, která mohou nevědomky brzdit přirozený vývoj dítěte. Pomocí technik energetické psychologie (EFT) je možné rozpustit vnitřní bloky a strachy, a tím tak navrátit dětskému organismu ztracenou rovnováhu a pocit bezpečí. Metoda se zaměřuje na uspokojení základních citových potřeb. Výsledkem je psychická úleva a nová vnitřní síla, díky které může dítě opět s lehkostí rozvíjet svůj plný potenciál.
-              
+              </p>
+
+              <h3 className="text-2xl md:text-3xl font-semibold text-primary pt-8">
+                Arteterapie
+              </h3>
+              <div className="h-1 w-20 bg-accent rounded-full" />
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Arteterapie je laskavý způsob, jak otevřít bránu do dětské duše bez nutnosti hledat složitá slova. Tuto metodu ráda využívám v úvodu našeho setkání jako přirozený most k navázání důvěry. Skrze barvy, tvary a tvoření může dítě nechat volně plynout své pocity, nálady i skrytá přání. Malování či tvoření slouží jako bezpečný prostředek k uvolnění prvotního ostychu a napětí.
               </p>
 
               <div className="relative mt-10 max-w-sm mx-auto">
