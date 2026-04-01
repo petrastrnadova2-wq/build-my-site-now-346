@@ -122,7 +122,7 @@ const Index = () => {
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
             <p className="text-xl text-primary font-semibold mb-4">Princip spojených nádob</p>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              „Často je tomu tak, že když se uvolní napětí v rodině nebo u rodiče, dětské symptomy zázračně mizí. Proto nabízím konzultace i pro vás, abychom podpořili celkovou lehkost u vás doma."
+              Často je tomu tak, že když se uvolní napětí v rodině nebo u rodiče, dětské symptomy mizí. Proto nabízím konzultace i pro vás, abychom podpořili celkovou lehkost u vás doma.
             </p>
           </div>
           <div className="flex justify-center">
@@ -132,6 +132,57 @@ const Index = () => {
               className="max-w-sm md:max-w-md h-auto"
               style={{ mixBlendMode: 'multiply' }}
             />
+          </div>
+        </div>
+      </section>
+
+      {/* Cesta k LEHKOSTI Section */}
+      <section className="py-24 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Jak probíhá naše cesta k LEHKOSTI?
+            </h2>
+            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Moje práce je založena na důvěře, efektivitě a hledání skutečných příčin. Nečekejte u mě dlouhé dotazníky, jdeme přímo k jádru věci.
+            </p>
+          </div>
+
+          <div className="space-y-10 max-w-3xl mx-auto">
+            <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-primary">1. První kontakt a rezervace termínu</h3>
+              <div className="h-1 w-12 bg-primary rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Cesta začíná vaším zavoláním. Krátce mi popíšete, co vás nebo vaše dítě trápí, a společně vybereme nejbližší volný termín. Tento první kontakt mi pomůže udělat si základní obraz o souvislostech, které budeme v poradně řešit.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-primary">2. Setkání: Společně nebo skrze vás</h3>
+              <div className="h-1 w-12 bg-accent rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Každá rodina je jedinečná a já ctím její aktuální potřeby. Máme dvě cesty:
+              </p>
+              <div className="pl-4 border-l-2 border-primary/30 space-y-4 mt-4">
+                <div>
+                  <p className="font-semibold text-foreground">Práce s dítětem:</p>
+                  <p className="text-muted-foreground leading-relaxed">Jemné uvolnění stresu a odblokování příčiny potíží přímo u dítěte v bezpečném prostředí poradny.</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Práce přes prostředníka (Rodiče):</p>
+                  <p className="text-muted-foreground leading-relaxed">Pokud je dítě příliš malé, citlivé nebo situace vyžaduje jiný přístup, můžeme pracovat přímo s vámi (rodičem). Díky principu spojených nádob se uvolnění napětí u vás přenese i na vaše dítě. Je to velmi hluboká a efektivní cesta, která šetří stres dítěti i čas vám.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-primary">3. Cesta k úlevě</h3>
+              <div className="h-1 w-12 bg-primary rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Cílem není nekonečná terapie, ale nalezení klíče, který odemkne vnitřní blok. Kineziologie je v tomto velmi přímá – často stačí i jedno setkání, aby se v celém rodinném celku začaly dít změny a v životě bylo zase LEHKO.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -156,16 +207,22 @@ const Index = () => {
             <div className="md:col-span-3 space-y-5">
               <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do dětského světa, jeho zákonitostí i výzev, kterým děti v dnešní době čelí.
+                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do zákonitostí dětského světa i náročných výzev, kterým děti v dnešní době čelí.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Během let strávených prací s dětmi i v mém blízkém okolí jsem si začala uvědomovat, jak hluboce ovlivňuje schopnost učení a radostné dětství vnitřní napětí, které si v sobě dítě nese. Viděla jsem, že tam, kde slova a klasické rady nestačí, může pomoci jemná práce s emocemi a tělem. Právě tyto zkušenosti mě přivedly k terapeutické metodě Kineziologie One Brain® a přístupům paní Emmerlingové.
+                Právě skrze své vzdělání a pozorování souvislostí v mém okolí jsem si uvědomila, jak zásadně ovlivňuje vnitřní napětí schopnost dětí učit se i prožívat spokojené dětství. Pochopila jsem, že rodina funguje jako jeden propojený, živý celek. Dítě je v něm často tím nejcitlivějším článkem, který skrze své chování či tělesné potíže může zrcadlit napětí, které si tento systém nese.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Ve své poradně LEHKO. propojuji pedagogické vzdělání s respektujícím přístupem, který se nedívá jen na výsledek ve škole, ale především na to, jak se dítě cítí uvnitř. Pomáhám dětem odložit stres a strachy, aby mohly znovu objevit svou vnitřní sílu a začít prožívat školní povinnosti i vztahy s lehkostí.
+                Zjistila jsem, že tam, kde slova a běžné rady nestačí, může pomoci jemná práce s emocemi a tělem. Tato touha porozumět hlubším souvislostem mě přivedla k metodě Kineziologie One Brain® a dalším přístupům, které mi umožňují jít k samotné podstatě potíží a efektivně uvolňovat vnitřní bloky. Věnuji se i tématům, o kterých se nám rodičům někdy těžko mluví – ať už jde o psychosomatické bolesti, noční pomočování nebo jiné skryté projevy stresu. V poradně LEHKO. pro ně vytvářím prostor plný bezpečí, kde stud nemá místo a kde společně hledáme, co se nám tělo snaží skrze tyto signály říct.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít v bezpečném prostředí, s laskavostí a bez posuzování.
+                Ve své praxi se soustředím na to, jak se dítě cítí uvnitř, a skrze kineziologické nástroje pomáhám odstraňovat stres a strachy, které mu brání v rozletu. Rodičům nabízím podporu, aby celá rodina mohla znovu najít společnou harmonii a klid.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít – v bezpečném prostředí, s laskavostí a bez posuzování.
+              </p>
+              <p className="text-2xl font-bold text-primary italic mt-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                Aby v životě bylo zase LEHKO.
               </p>
             </div>
           </div>
