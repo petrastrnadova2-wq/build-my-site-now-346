@@ -23,13 +23,33 @@ const Index = () => {
               Lehko.
             </h1>
             <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide">
-              Prostor pro vnitřní klid dětí a radostné učení.
+              Poradna pro lehkost v emocích, vztazích a učení.
             </h2>
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Děti, které procházejí náročným obdobím v emocích, ve škole nebo v kolektivu, potřebují především citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na respektujících metodách, které jdou přímo k jádru problému. Pomáhám dětem uvolnit vnitřní bloky a efektivně odbourat nahromaděný stres.
+              Pomáhám dětem i dospívajícím zvládat emoce, školní nároky i vztahy. Nabízím bezpečný prostor pro řešení potíží úzkostí i psychosomatikou – citlivě a bez tlaku.
             </p>
+            <p className="text-3xl md:text-4xl font-bold text-primary italic max-w-2xl mx-auto mt-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              „Aby v životě bylo zase LEHKO."
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+              <Button 
+                size="lg"
+                className="bg-gradient-primary hover:opacity-90 transition-all shadow-soft hover:shadow-glow text-lg px-8"
+                onClick={() => document.getElementById('oblasti-podpory')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Chci pomoci svému dítěti
+              </Button>
+              <Button 
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10 text-lg px-8"
+                onClick={() => document.getElementById('podpora-dospelych')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Potřebuji podporu pro sebe
+              </Button>
+            </div>
           </div>
         </div>
       </section>
