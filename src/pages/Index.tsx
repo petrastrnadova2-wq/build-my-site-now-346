@@ -6,6 +6,7 @@ import balanceImage from "@/assets/balance-wellness.jpg";
 import petraProfile from "@/assets/petra-profile.jpg";
 import childIllustration from "@/assets/child-illustration.jpg";
 import contactIllustration from "@/assets/contact-illustration.png";
+import familyIllustration from "@/assets/family-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
 import { generatePDF } from "@/utils/pdfGenerator";
 
@@ -22,19 +23,39 @@ const Index = () => {
               Lehko.
             </h1>
             <h2 className="text-2xl md:text-3xl text-primary font-light tracking-wide">
-              Prostor pro vnitřní klid dětí a radostné učení.
+              Poradna pro lehkost v emocích, vztazích a učení.
             </h2>
             <img src={heroChild} alt="Ilustrace šťastného dítěte" className="mx-auto max-w-xs md:max-w-md h-auto mt-4" />
             <div className="h-1 w-32 mx-auto bg-gradient-primary rounded-full" />
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              Děti, které procházejí náročným obdobím v emocích, ve škole nebo v kolektivu, potřebují především citlivý přístup a pochopení. Nabízím bezpečnou podporu založenou na respektujících metodách, které jdou přímo k jádru problému. Pomáhám dětem uvolnit vnitřní bloky a efektivně odbourat nahromaděný stres.
+              Pomáhám dětem i dospívajícím zvládat emoce, školní nároky i vztahy. Nabízím bezpečný prostor pro řešení potíží úzkostí i psychosomatikou – citlivě a bez tlaku.
             </p>
+            <p className="text-3xl md:text-4xl font-bold text-primary italic max-w-2xl mx-auto mt-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              „Aby v životě bylo zase LEHKO."
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center mt-6">
+              <Button 
+                size="lg"
+                className="bg-gradient-primary hover:opacity-90 transition-all shadow-soft hover:shadow-glow text-lg px-8"
+                onClick={() => document.getElementById('oblasti-podpory')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Chci pomoci svému dítěti
+              </Button>
+              <Button 
+                size="lg"
+                variant="outline"
+                className="border-primary text-primary hover:bg-primary/10 text-lg px-8"
+                onClick={() => document.getElementById('podpora-dospelych')?.scrollIntoView({ behavior: 'smooth' })}
+              >
+                Potřebuji podporu pro sebe
+              </Button>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Child Support Section */}
-      <section className="py-12 px-4">
+      <section id="oblasti-podpory" className="py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
@@ -91,7 +112,30 @@ const Index = () => {
         </div>
       </section>
 
-      {/* O mně Section */}
+      {/* Podpora dospělých Section */}
+      <section id="podpora-dospelych" className="py-24 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Podpora dospělých
+            </h2>
+            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+            <p className="text-xl text-primary font-semibold mb-4">Princip spojených nádob</p>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              „Často je tomu tak, že když se uvolní napětí v rodině nebo u rodiče, dětské symptomy zázračně mizí. Proto nabízím konzultace i pro vás, abychom podpořili celkovou lehkost u vás doma."
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <img 
+              src={familyIllustration} 
+              alt="Ilustrace rodiny" 
+              className="max-w-sm md:max-w-md h-auto"
+              style={{ mixBlendMode: 'multiply' }}
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
