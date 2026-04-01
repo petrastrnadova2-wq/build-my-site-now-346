@@ -112,7 +112,30 @@ const Index = () => {
         </div>
       </section>
 
-      {/* O mně Section */}
+      {/* Podpora dospělých Section */}
+      <section id="podpora-dospelych" className="py-24 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Podpora dospělých
+            </h2>
+            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+            <p className="text-xl text-primary font-semibold mb-4">Princip spojených nádob</p>
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              „Často je tomu tak, že když se uvolní napětí v rodině nebo u rodiče, dětské symptomy zázračně mizí. Proto nabízím konzultace i pro vás, abychom podpořili celkovou lehkost u vás doma."
+            </p>
+          </div>
+          <div className="flex justify-center">
+            <img 
+              src={familyIllustration} 
+              alt="Ilustrace rodiny" 
+              className="max-w-sm md:max-w-md h-auto"
+              style={{ mixBlendMode: 'multiply' }}
+            />
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
