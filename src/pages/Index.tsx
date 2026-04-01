@@ -187,48 +187,6 @@ const Index = () => {
         </div>
       </section>
 
-      <section className="py-12 px-4">
-        <div className="container mx-auto max-w-4xl">
-          <div className="text-center mb-12 animate-fade-in">
-            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
-              O mně
-            </h2>
-            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
-          </div>
-
-          <div className="grid md:grid-cols-5 gap-10 items-start animate-fade-up">
-            <div className="md:col-span-2 flex justify-center">
-              <img
-                src={petraProfile}
-                alt="Mgr. Petra Strnadová"
-                className="rounded-2xl shadow-soft w-full max-w-xs h-auto object-cover"
-              />
-            </div>
-            <div className="md:col-span-3 space-y-5">
-              <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do zákonitostí dětského světa i náročných výzev, kterým děti v dnešní době čelí.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Právě skrze své vzdělání a pozorování souvislostí v mém okolí jsem si uvědomila, jak zásadně ovlivňuje vnitřní napětí schopnost dětí učit se i prožívat spokojené dětství. Pochopila jsem, že rodina funguje jako jeden propojený, živý celek. Dítě je v něm často tím nejcitlivějším článkem, který skrze své chování či tělesné potíže může zrcadlit napětí, které si tento systém nese.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Zjistila jsem, že tam, kde slova a běžné rady nestačí, může pomoci jemná práce s emocemi a tělem. Tato touha porozumět hlubším souvislostem mě přivedla k metodě Kineziologie One Brain® a dalším přístupům, které mi umožňují jít k samotné podstatě potíží a efektivně uvolňovat vnitřní bloky. Věnuji se i tématům, o kterých se nám rodičům někdy těžko mluví – ať už jde o psychosomatické bolesti, noční pomočování nebo jiné skryté projevy stresu. V poradně LEHKO. pro ně vytvářím prostor plný bezpečí, kde stud nemá místo a kde společně hledáme, co se nám tělo snaží skrze tyto signály říct.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Ve své praxi se soustředím na to, jak se dítě cítí uvnitř, a skrze kineziologické nástroje pomáhám odstraňovat stres a strachy, které mu brání v rozletu. Rodičům nabízím podporu, aby celá rodina mohla znovu najít společnou harmonii a klid.
-              </p>
-              <p className="text-muted-foreground leading-relaxed">
-                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít – v bezpečném prostředí, s laskavostí a bez posuzování.
-              </p>
-              <p className="text-2xl font-bold text-primary italic mt-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
-                Aby v životě bylo zase LEHKO.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Metody Section */}
       <section className="py-12 px-4 bg-secondary/30">
         <div className="container mx-auto max-w-6xl">
@@ -269,6 +227,49 @@ const Index = () => {
                   style={{ mixBlendMode: 'multiply' }}
                 />
               </div>
+          </div>
+        </div>
+      </section>
+
+      {/* About Section */}
+      <section className="py-12 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              O mně
+            </h2>
+            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+          </div>
+
+          <div className="grid md:grid-cols-5 gap-10 items-start animate-fade-up">
+            <div className="md:col-span-2 flex justify-center">
+              <img
+                src={petraProfile}
+                alt="Mgr. Petra Strnadová"
+                className="rounded-2xl shadow-soft w-full max-w-xs h-auto object-cover"
+              />
+            </div>
+            <div className="md:col-span-3 space-y-5">
+              <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
+              <p className="text-muted-foreground leading-relaxed">
+                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do zákonitostí dětského světa i náročných výzev, kterým děti v dnešní době čelí.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Právě skrze své vzdělání a pozorování souvislostí v mém okolí jsem si uvědomila, jak zásadně ovlivňuje vnitřní napětí schopnost dětí učit se i prožívat spokojené dětství. Pochopila jsem, že rodina funguje jako jeden propojený, živý celek. Dítě je v něm často tím nejcitlivějším článkem, který skrze své chování či tělesné potíže může zrcadlit napětí, které si tento systém nese.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Zjistila jsem, že tam, kde slova a běžné rady nestačí, může pomoci jemná práce s emocemi a tělem. Tato touha porozumět hlubším souvislostem mě přivedla k metodě Kineziologie One Brain® a dalším přístupům, které mi umožňují jít k samotné podstatě potíží a efektivně uvolňovat vnitřní bloky. Věnuji se i tématům, o kterých se nám rodičům někdy těžko mluví – ať už jde o psychosomatické bolesti, noční pomočování nebo jiné skryté projevy stresu. V poradně LEHKO. pro ně vytvářím prostor plný bezpečí, kde stud nemá místo a kde společně hledáme, co se nám tělo snaží skrze tyto signály říct.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Ve své praxi se soustředím na to, jak se dítě cítí uvnitř, a skrze kineziologické nástroje pomáhám odstraňovat stres a strachy, které mu brání v rozletu. Rodičům nabízím podporu, aby celá rodina mohla znovu najít společnou harmonii a klid.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít – v bezpečném prostředí, s laskavostí a bez posuzování.
+              </p>
+              <p className="text-2xl font-bold text-primary italic mt-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                Aby v životě bylo zase LEHKO.
+              </p>
+            </div>
           </div>
         </div>
       </section>
