@@ -122,7 +122,7 @@ const Index = () => {
             <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
             <p className="text-xl text-primary font-semibold mb-4">Princip spojených nádob</p>
             <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
-              „Často je tomu tak, že když se uvolní napětí v rodině nebo u rodiče, dětské symptomy zázračně mizí. Proto nabízím konzultace i pro vás, abychom podpořili celkovou lehkost u vás doma."
+              Často je tomu tak, že když se uvolní napětí v rodině nebo u rodiče, dětské symptomy mizí. Proto nabízím konzultace i pro vás, abychom podpořili celkovou lehkost u vás doma.
             </p>
           </div>
           <div className="flex justify-center">
