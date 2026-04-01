@@ -136,6 +136,57 @@ const Index = () => {
         </div>
       </section>
 
+      {/* Cesta k LEHKOSTI Section */}
+      <section className="py-24 px-4">
+        <div className="container mx-auto max-w-4xl">
+          <div className="text-center mb-12 animate-fade-in">
+            <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+              Jak probíhá naše cesta k LEHKOSTI?
+            </h2>
+            <div className="h-1 w-20 bg-accent rounded-full mx-auto mb-6" />
+            <p className="text-lg text-muted-foreground leading-relaxed max-w-3xl mx-auto">
+              Moje práce je založena na důvěře, efektivitě a hledání skutečných příčin. Nečekejte u mě dlouhé dotazníky, jdeme přímo k jádru věci.
+            </p>
+          </div>
+
+          <div className="space-y-10 max-w-3xl mx-auto">
+            <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-primary">1. První kontakt a rezervace termínu</h3>
+              <div className="h-1 w-12 bg-primary rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Cesta začíná vaším zavoláním. Krátce mi popíšete, co vás nebo vaše dítě trápí, a společně vybereme nejbližší volný termín. Tento první kontakt mi pomůže udělat si základní obraz o souvislostech, které budeme v poradně řešit.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-primary">2. Setkání: Společně nebo skrze vás</h3>
+              <div className="h-1 w-12 bg-accent rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Každá rodina je jedinečná a já ctím její aktuální potřeby. Máme dvě cesty:
+              </p>
+              <div className="pl-4 border-l-2 border-primary/30 space-y-4 mt-4">
+                <div>
+                  <p className="font-semibold text-foreground">Práce s dítětem:</p>
+                  <p className="text-muted-foreground leading-relaxed">Jemné uvolnění stresu a odblokování příčiny potíží přímo u dítěte v bezpečném prostředí poradny.</p>
+                </div>
+                <div>
+                  <p className="font-semibold text-foreground">Práce přes prostředníka (Rodiče):</p>
+                  <p className="text-muted-foreground leading-relaxed">Pokud je dítě příliš malé, citlivé nebo situace vyžaduje jiný přístup, můžeme pracovat přímo s vámi (rodičem). Díky principu spojených nádob se uvolnění napětí u vás přenese i na vaše dítě. Je to velmi hluboká a efektivní cesta, která šetří stres dítěti i čas vám.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="text-2xl font-bold text-primary">3. Cesta k úlevě</h3>
+              <div className="h-1 w-12 bg-primary rounded-full" />
+              <p className="text-muted-foreground leading-relaxed">
+                Cílem není nekonečná terapie, ale nalezení klíče, který odemkne vnitřní blok. Kineziologie je v tomto velmi přímá – často stačí i jedno setkání, aby se v celém rodinném celku začaly dít změny a v životě bylo zase LEHKO.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-12 px-4">
         <div className="container mx-auto max-w-4xl">
           <div className="text-center mb-12 animate-fade-in">
