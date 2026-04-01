@@ -156,16 +156,22 @@ const Index = () => {
             <div className="md:col-span-3 space-y-5">
               <h3 className="text-2xl font-semibold text-primary">Mgr. Petra Strnadová</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do dětského světa, jeho zákonitostí i výzev, kterým děti v dnešní době čelí.
+                Jmenuji se Petra Strnadová a mým posláním je provázet děti i dospělé na cestě k vnitřnímu klidu a porozumění sobě samým. Moje profesní cesta začala na pedagogické fakultě, kde jsem získala hluboký vhled do zákonitostí dětského světa i náročných výzev, kterým děti v dnešní době čelí.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Během let strávených prací s dětmi i v mém blízkém okolí jsem si začala uvědomovat, jak hluboce ovlivňuje schopnost učení a radostné dětství vnitřní napětí, které si v sobě dítě nese. Viděla jsem, že tam, kde slova a klasické rady nestačí, může pomoci jemná práce s emocemi a tělem. Právě tyto zkušenosti mě přivedly k terapeutické metodě Kineziologie One Brain® a přístupům paní Emmerlingové.
+                Právě skrze své vzdělání a pozorování souvislostí v mém okolí jsem si uvědomila, jak zásadně ovlivňuje vnitřní napětí schopnost dětí učit se i prožívat spokojené dětství. Pochopila jsem, že rodina funguje jako jeden propojený, živý celek. Dítě je v něm často tím nejcitlivějším článkem, který skrze své chování či tělesné potíže může zrcadlit napětí, které si tento systém nese.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Ve své poradně LEHKO. propojuji pedagogické vzdělání s respektujícím přístupem, který se nedívá jen na výsledek ve škole, ale především na to, jak se dítě cítí uvnitř. Pomáhám dětem odložit stres a strachy, aby mohly znovu objevit svou vnitřní sílu a začít prožívat školní povinnosti i vztahy s lehkostí.
+                Zjistila jsem, že tam, kde slova a běžné rady nestačí, může pomoci jemná práce s emocemi a tělem. Tato touha porozumět hlubším souvislostem mě přivedla k metodě Kineziologie One Brain® a dalším přístupům, které mi umožňují jít k samotné podstatě potíží a efektivně uvolňovat vnitřní bloky. Věnuji se i tématům, o kterých se nám rodičům někdy těžko mluví – ať už jde o psychosomatické bolesti, noční pomočování nebo jiné skryté projevy stresu. V poradně LEHKO. pro ně vytvářím prostor plný bezpečí, kde stud nemá místo a kde společně hledáme, co se nám tělo snaží skrze tyto signály říct.
               </p>
               <p className="text-muted-foreground leading-relaxed">
-                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít v bezpečném prostředí, s laskavostí a bez posuzování.
+                Ve své praxi se soustředím na to, jak se dítě cítí uvnitř, a skrze kineziologické nástroje pomáhám odstraňovat stres a strachy, které mu brání v rozletu. Rodičům nabízím podporu, aby celá rodina mohla znovu najít společnou harmonii a klid.
+              </p>
+              <p className="text-muted-foreground leading-relaxed">
+                Věřím, že v každém příběhu je ukrytý klíč k řešení. Jsem tu, abych vám i vašim dětem pomohla tento klíč najít – v bezpečném prostředí, s laskavostí a bez posuzování.
+              </p>
+              <p className="text-2xl font-bold text-primary italic mt-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
+                Aby v životě bylo zase LEHKO.
               </p>
             </div>
           </div>
