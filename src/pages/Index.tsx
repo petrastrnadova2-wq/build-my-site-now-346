@@ -6,6 +6,7 @@ import balanceImage from "@/assets/balance-wellness.jpg";
 import petraProfile from "@/assets/petra-profile.jpg";
 import childIllustration from "@/assets/child-illustration.jpg";
 import contactIllustration from "@/assets/contact-illustration.png";
+import familyIllustration from "@/assets/family-illustration.jpg";
 import { Flyer } from "@/components/Flyer";
 import { generatePDF } from "@/utils/pdfGenerator";
 
