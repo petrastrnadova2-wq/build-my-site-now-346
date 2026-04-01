@@ -55,7 +55,7 @@ const Index = () => {
       </section>
 
       {/* Child Support Section */}
-      <section className="py-12 px-4">
+      <section id="oblasti-podpory" className="py-12 px-4">
         <div className="container mx-auto max-w-6xl">
           <div className="text-center mb-16 animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-4" style={{ fontFamily: "'Dancing Script', cursive" }}>
